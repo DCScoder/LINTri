@@ -111,7 +111,7 @@ Internet:
 
 #### Usage:
 
-Step 1: Copy LINTri.sh to target host.
+Step 1: Copy LINTri.sh to the root of the target host file system via your preferred method i.e., SCP.
 
 Step 2: Set script permissions to execute:
 
@@ -125,7 +125,7 @@ Step 3: Execute script with Superuser privileges:
 sudo ./LINTri.sh
 ```
 
-Step 4: Download resultant (*.tar.gz) archive file via your preferred method.
+Step 4: Download resultant (*.tar.gz) archive file via your preferred method i.e., SCP.
 
 Step 5: Delete script and archive file from host:
 
