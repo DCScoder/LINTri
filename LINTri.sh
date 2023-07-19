@@ -2,7 +2,7 @@
 ###################################################################################
 #
 #    Script:    LINTri.sh
-#    Version:   1.3
+#    Version:   1.4
 #    Author:    Dan Saunders
 #    Contact:   dcscoder@gmail.com
 #    Purpose:   Linux Cyber Security Incident Response Script (Bash)
@@ -23,7 +23,7 @@
 #
 ###################################################################################
 
-Version='v1.3'
+Version='v1.4'
 
 ########## Startup ##########
 
@@ -55,6 +55,16 @@ Hallo $(whoami), skript laeuft auf $(hostname), bitte nicht beruehren.
 echo "
 Running script / Ausfuehrendes Skript..."
 
+########## Directory Location ##########
+
+CWD=$(pwd)
+
+if [[ $CWD != "/"]]; then
+    echo "Script must be run from the root directory! Changing to root directory"
+    cd /
+    echo "Changed to root directory"
+fi 
+    
 ########## Admin ##########
 
 echo "
