@@ -2,7 +2,7 @@
 ###################################################################################
 #
 #    Script:    LINTri.sh
-#    Version:   1.3
+#    Version:   1.4
 #    Author:    Dan Saunders
 #    Contact:   dcscoder@gmail.com
 #    Purpose:   Linux Cyber Security Incident Response Script (Bash)
