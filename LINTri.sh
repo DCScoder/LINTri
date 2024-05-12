@@ -2,7 +2,7 @@
 ###################################################################################
 #
 #    Script:    LINTri.sh
-#    Version:   1.4
+#    Version:   1.5
 #    Author:    Dan Saunders
 #    Contact:   dcscoder@gmail.com
 #    Purpose:   Linux Cyber Security Incident Response Script (Bash)
@@ -23,7 +23,7 @@
 #
 ###################################################################################
 
-Version='v1.4'
+Version='v1.5'
 
 ########## Startup ##########
 
@@ -59,7 +59,7 @@ Running script / Ausfuehrendes Skript..."
 
 CWD=$(pwd)
 
-if [[ $CWD != "/"]]; then
+if [[ $CWD != "/" ]]; then
     echo "Script must be run from the root directory! Changing to root directory"
     cd /
     echo "Changed to root directory"
